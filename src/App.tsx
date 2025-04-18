@@ -18,7 +18,7 @@ export default function LandingPage() {
         <div className="logo" style={{ justifyContent: 'space-between' }}>
 
           <StoreIcon className="storefront" size={10} strokeWidth={1} color='white' />
-          <button className="button" style={{ marginLeft: 0 }}>Marketplace</button>
+          <button className="button" style={{ marginLeft: 0, paddingLeft:'40px' }}>Auctioneer</button>
         </div>
 
 
@@ -95,8 +95,13 @@ export default function LandingPage() {
         <img src={img1} alt='web-3-img'/>
         <img src={img1} alt='web-3-img'/>
         <img src={img1} alt='web-3-img'/>
-        <p>Avatar One</p>
+        
       </div>
+      <p>DSGN CULTURE</p>
+      <div className='small-avatar' style={{ display: 'flex', alignItems: 'center', gap: '1px', marginTop: 0}}>
+  <img src={img4} alt="web-3-img" style={{ height: '30px', width: '30px' }} />
+  <p style={{ paddingLeft:'8px', paddingTop:'3px' }}>Mr Ezrahel</p>
+</div>
       </div>
       <div className='all-avatar-container-2'>
       <img src={img2} alt='web-3-img'/>
@@ -104,8 +109,14 @@ export default function LandingPage() {
       <img src={img2} alt='web-3-img'/>
       <img src={img2} alt='web-3-img'/>
       <img src={img2} alt='web-3-img'/>
-        <p>Avatar Two</p>
+      
+
       </div>
+      <p>DSGN CULTURE</p>
+      <div className='small-avatar' style={{ display: 'flex', alignItems: 'center', gap: '1px', marginTop: 0}}>
+  <img src={img4} alt="web-3-img" style={{ height: '30px', width: '30px' }} />
+  <p style={{ paddingLeft:'8px', paddingTop:'3px' }}>Mr Fola</p>
+</div>
       </div>
       <div className='all-avatar-container-3'>
       <img src={img3} alt='web-3-img'/>
@@ -113,10 +124,35 @@ export default function LandingPage() {
       <img src={img3} alt='web-3-img'/>
       <img src={img3} alt='web-3-img'/>
       <img src={img3} alt='web-3-img'/>
-        <p>Avatar Three</p>
+      </div>
+      <p>DSGN CULTURE</p>
+      <div className='small-avatar' style={{ display: 'flex', alignItems: 'center', gap: '1px', marginTop: 0}}>
+  <img src={img4} alt="web-3-img" style={{ height: '30px', width: '30px' }} />
+  <p style={{ paddingLeft:'8px', paddingTop:'3px' }}>Mr Maloney</p>
+</div>
+      </div>
+    
       </div>
       </div>
-      </div>
+    </section>
+
+    {/* Top creators | Third sesction */}
+    <section style={{paddingTop: 50}}>
+      <div>
+        <div className='creator-ranking'>
+          
+        <p style={{fontWeight:600, fontSize: 40}}>
+          Top Creators
+        <br/>
+        <span
+           style={{fontSize: 20, paddingTop: '20px', justifyContent:'space-between'}}>
+          Checkout Top Rated Creators on the Auctioneer Corridor
+          </span>
+          <button>
+            View Rankings
+          </button>
+        </p>
+        </div>
       </div>
     </section>
       </>
