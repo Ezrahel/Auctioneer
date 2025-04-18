@@ -1,0 +1,321 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: relative;
+    background-color: var(--background);
+  }
+  body{
+    background-color: #2b2b2b;
+  }
+  .navigation .nav-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .navigation .logo {
+    position: relative;
+    width: 243.41px;
+    height: 32px;
+  }
+  
+  .navigation .storefront {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 0;
+  }
+  
+  .navigation .NFT-marketplace {
+    position: absolute;
+    width: 199px;
+    height: 20px;
+    top: 9px;
+    left: 44px;
+  }
+  
+  .navigation .nav-nav-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .navigation .button-wrapper {
+    display: inline-flex;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .navigation .button-wrapper:hover {
+    transform: scale(0.95);
+  }
+  
+  .navigation .button {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .navigation .sign-up {
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 30px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .navigation .sign-up:hover {
+    transform: scale(0.95);
+  }
+  
+  .navigation .user {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Below the navbar */
+
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px 195px;
+    position: relative;
+    background-color: var(--background);
+  }
+  
+  .hero-section .hero-section-frame {
+    display: flex;
+    width: 1050px;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    margin-left: -80.00px;
+    margin-right: -80.00px;
+    color: white
+  }
+  
+  .hero-section .hero-text-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .hero-section .headline-subhead {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .hero-section .discover-digital-art {
+    position: relative;
+    flex: 1;
+    width: 510px;
+    margin-top: -1.00px;
+    font-family: var(--h1-work-sans-font-family);
+    font-weight: var(--h1-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h1-work-sans-font-size);
+    letter-spacing: var(--h1-work-sans-letter-spacing);
+    line-height: var(--h1-work-sans-line-height);
+    font-style: var(--h1-work-sans-font-style);
+  }
+  
+  .hero-section .NFT-marketplace-UI {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-text-work-sans-font-family);
+    font-weight: var(--body-text-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--body-text-work-sans-font-size);
+    letter-spacing: var(--body-text-work-sans-letter-spacing);
+    line-height: var(--body-text-work-sans-line-height);
+    font-style: var(--body-text-work-sans-font-style);
+  }
+  
+  .hero-section .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 50px;
+    position: relative;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-section .button:hover {
+    transform: scale(0.95);
+  }
+  
+  .hero-section .rocket-launch {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .hero-section .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .hero-section .additional-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 20px;
+  }
+  
+  .hero-section .div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 20px;
+  }
+  
+  .hero-section .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--h4-space-mono-font-family);
+    font-weight: var(--h4-space-mono-font-weight);
+    color: var(--white);
+    font-size: var(--h4-space-mono-font-size);
+    letter-spacing: var(--h4-space-mono-letter-spacing);
+    line-height: var(--h4-space-mono-line-height);
+    font-style: var(--h4-space-mono-font-style);
+  }
+  
+  .hero-section .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+  }
+  
+  .hero-section .highlighted-NFT {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-image: url(https://cdn.animaapp.com/projects/6357ce7c8a65b2f16659918c/files/heroanimationtransparentbck-2.gif);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  /* Trending section */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+  .outter-trending{
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    
+  }
+
+  .trending-collection{
+    padding: 60px;
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight:600;
+  }
+  .trending-collection p{
+    font-weight: 0px;
+  }
+ .all-avatar-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 30px;
+    padding: 30px;
+  }
+
+
+  .outter-avatar-1 img{
+    border-radius: 30px;
+    height: 25%;
+    width: 100%;
+  
+  }
+  .outter-avatar-2 img{
+    border-radius: 30px;
+    height: 25%;
+    width: 100%;
+   
+  }
+  .outter-avatar-3 img{
+    border-radius: 30px;
+    height: 25%;
+    width: 100%;
+    
+  }
+
+  
